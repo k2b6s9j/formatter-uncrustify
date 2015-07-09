@@ -1,0 +1,18 @@
+{
+  "name": "formatter-uncrustify",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Format C/C++/Obj-C/D/Java/Pawn/Vala using uncrustify.",
+  "repository": "https://github.com/k2b6s9j/formatter-uncrustify",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "providedServices": {
+    "formatter": {
+      "versions": {
+        "1.0.0": "provideFormatter"
+      }
+    }
+  }
+}
